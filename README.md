@@ -1,4 +1,4 @@
-<img alt="UIElements" align="left" href="https://github.com/AlbertoCuadra/UIElements" style="border-width:0" src="https://github.com/AlbertoCuadra/UIElements/blob/master/assets/_static/logo_uielements.png" width="130"/>
+<img alt="UIElements" align="left" href="https://github.com/AlbertoCuadra/UIElements" style="border-width:0" src="https://github.com/AlbertoCuadra/UIElements/blob/master/assets/_static/logo_uielements_matlab.png" width="160"/>
 
 # UIElements
 
