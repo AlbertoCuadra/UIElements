@@ -12,12 +12,12 @@ UIElements is a Graphic User Interface (GUI) to select and analyze the species i
 
 <div class="warning" style='background-color:#a6dbed; color: #3a7d94; border-left: solid #3faed4 4px; border-radius: 4px; padding:0.7em;'>
     <span>
-        <p style='margin-top:1em; text-align:center'>
+        <p style='margin-top:1em; text-align:left'>
         <b>Note</b></p>
         <p style='margin-left:1em;'>
             This app was developed for <a href="https://github.com/AlbertoCuadra/combustion_toolbox"> Combustion Toolbox </a>, an open source thermochemical code for solving gaseous combustion problems.
         </p>
-        <p style='margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia'> <b> Combustion Toolbox Website</b> https://combustion-toolbox-website.readthedocs.io/
+        <p style='margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia'> <a href="https://combustion-toolbox-website.readthedocs.io/"> <b> Combustion Toolbox Website</b> </a>
         </p>
     </span>
 </div>
