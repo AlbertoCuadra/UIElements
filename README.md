@@ -7,7 +7,7 @@
 
 <br>
 
-UIElements is a Graphic User Interface (GUI) to select and analyze the species included in NASA's database and the Third Millenium database. The species of the latter are denoted with the suffix _M.
+UIElements is a Graphic User Interface (GUI) to select and analyze the species included in NASA's database and the Third Millenium Database. The species of the latter are denoted with the suffix _M.
 
 
 <div class="warning" style='background-color:#a6dbed; color: #3a7d94; border-left: solid #3faed4 4px; border-radius: 4px; padding:0.7em;'>
