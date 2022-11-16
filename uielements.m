@@ -312,12 +312,15 @@ classdef uielements < matlab.apps.AppBase
         % Create UIFigure and components
         function createComponents(app)
 
+            % Get the file path for locating images
+            pathToMLAPP = fileparts(mfilename('fullpath'));
+
             % Create UIElements and hide until all components are created
             app.UIElements = uifigure('Visible', 'off');
             app.UIElements.Color = [0.9098 0.9098 0.8902];
             app.UIElements.Position = [150 150 1434 558];
             app.UIElements.Name = 'uielements';
-            app.UIElements.Icon = 'logo_uielements.png';
+            app.UIElements.Icon = fullfile(pathToMLAPP, 'assets', 'logo_uielements.png');
             app.UIElements.CloseRequestFcn = createCallbackFcn(app, @UIElementsCloseRequest, true);
             app.UIElements.Scrollable = 'on';
 
