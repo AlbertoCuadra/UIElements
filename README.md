@@ -9,8 +9,18 @@
 
 UIElements is a Graphic User Interface (GUI) to select and analyze the species included in NASA's database and the Third Millenium database. The species of the latter are denoted with the suffix _M.
 
-> **_NOTE:_** 
-This app was developed for [Combustion Toolbox](https://github.com/AlbertoCuadra/combustion_toolbox), an open source thermochemical code for solving gaseous combustion problems. More info here: https://combustion-toolbox-website.readthedocs.io/
+
+<div class="warning" style='background-color:#a6dbed; color: #3a7d94; border-left: solid #3faed4 4px; border-radius: 4px; padding:0.7em;'>
+    <span>
+        <p style='margin-top:1em; text-align:center'>
+        <b>Note</b></p>
+        <p style='margin-left:1em;'>
+            This app was developed for <a href="https://github.com/AlbertoCuadra/combustion_toolbox"> Combustion Toolbox </a>, an open source thermochemical code for solving gaseous combustion problems.
+        </p>
+        <p style='margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia'> <b> Combustion Toolbox Website</b> https://combustion-toolbox-website.readthedocs.io/
+        </p>
+    </span>
+</div>
 
 <br>
 
