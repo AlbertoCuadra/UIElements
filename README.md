@@ -15,6 +15,10 @@ This app was developed for [Combustion Toolbox](https://github.com/AlbertoCuadra
 
 UIElements is available under an open-source GPLv3 license (see [LICENSE.md](LICENSE.md)).
 
+# Acknowledgments
+
+The periodic table layout is based in the following repository: Bruno Salcedo (2018). latex-periodic-table (https://github.com/brunosalcedo/latex-periodic-table), Github. Retrieved October 15, 2022.
+
 # Author
 [Alberto Cuadra-Lara](https://acuadralara.com/) - Pre-doctoral researcher, Universidad Carlos III de Madrid 
 
