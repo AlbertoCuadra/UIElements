@@ -8,7 +8,7 @@ This app was developed for [Combustion Toolbox](https://github.com/AlbertoCuadra
 <br>
 
 <p align=center>
-    <img src="https://github.com/AlbertoCuadra/UIElements/blob/main/assets/_static/uielements.gif" width="1000">
+    <img src="https://github.com/AlbertoCuadra/UIElements/blob/master/assets/_static/uielements.gif" width="1000">
 </p>
 
 # License
