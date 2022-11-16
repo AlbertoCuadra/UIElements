@@ -3,7 +3,7 @@
 # UIElements
 
 [![View UIElements on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://in.mathworks.com/matlabcentral/fileexchange/120713-uielements)
-
+[![license](https://img.shields.io/github/license/AlbertoCuadra/UIElements)](https://www.gnu.org/licenses/gpl-3.0.html)
 
 UIElements is a Graphic User Interface (GUI) to select and analyze the species included in NASA's database and the Third Millenium database. The species of the latter are denoted with the suffix _M.
 
