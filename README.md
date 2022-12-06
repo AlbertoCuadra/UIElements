@@ -34,7 +34,7 @@ UIElements is available under an open-source GPLv3 license (see [LICENSE.md](LIC
 
 # Acknowledgments
 
-The periodic table layout is based in the following repository: Bruno Salcedo (2018). latex-periodic-table (https://github.com/brunosalcedo/latex-periodic-table), Github. Retrieved October 15, 2022.
+The periodic table layout is based on the following repository: Bruno Salcedo (2018). latex-periodic-table (https://github.com/brunosalcedo/latex-periodic-table), Github. Retrieved October 15, 2022.
 
 # Author
 [Alberto Cuadra-Lara](https://acuadralara.com/) - Pre-doctoral researcher, Universidad Carlos III de Madrid 
