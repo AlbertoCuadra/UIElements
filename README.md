@@ -1,4 +1,4 @@
-<img alt="UIElements" align="left" href="https://github.com/AlbertoCuadra/UIElements" style="border-width:0" src="https://github.com/AlbertoCuadra/UIElements/blob/master/assets/_static/logo_uielements.png" width="130"/>
+<img alt="UIElements" align="left" href="https://github.com/AlbertoCuadra/UIElements" style="border-width:0" src="https://github.com/AlbertoCuadra/UIElements/blob/master/assets/_static/logo_uielements_matlab.png" width="145"/>
 
 # UIElements
 
@@ -7,7 +7,7 @@
 
 <br>
 
-UIElements is a Graphic User Interface (GUI) to select and analyze the species included in NASA's database and the Third Millenium database. The species of the latter are denoted with the suffix _M.
+UIElements is a Graphic User Interface (GUI) to select and analyze the species included in NASA's database and the Third Millenium Database. The species of the latter are denoted with the suffix _M.
 
 
 <div class="warning" style='background-color:#a6dbed; color: #3a7d94; border-left: solid #3faed4 4px; border-radius: 4px; padding:0.7em;'>
@@ -34,7 +34,7 @@ UIElements is available under an open-source GPLv3 license (see [LICENSE.md](LIC
 
 # Acknowledgments
 
-The periodic table layout is based in the following repository: Bruno Salcedo (2018). latex-periodic-table (https://github.com/brunosalcedo/latex-periodic-table), Github. Retrieved October 15, 2022.
+The periodic table layout is based on the following repository: Bruno Salcedo (2018). latex-periodic-table (https://github.com/brunosalcedo/latex-periodic-table), Github. Retrieved October 15, 2022.
 
 # Author
 [Alberto Cuadra-Lara](https://acuadralara.com/) - Pre-doctoral researcher, Universidad Carlos III de Madrid 
