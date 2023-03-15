@@ -128,6 +128,7 @@ classdef uielements < matlab.apps.AppBase
         LS_DB       % List species Database
         LE_selected % List of elements selected
         LE_omit     % List of elements to omit
+        ind_elements_DB % Matrix with element indeces of each species contained in the database
     end
 
     properties (Dependent)
@@ -183,6 +184,8 @@ classdef uielements < matlab.apps.AppBase
             set_DB(app);        
             % Save list of species contained in the database
             app.LS_DB = fieldnames(app.DB);
+            % Get element indeces of each species contained in the database
+            app.ind_elements_DB = get_ind_elements(app.LS_DB, app.DB, set_elements(), 5);
         end
 
         % Image clicked function: element_1, element_10, element_11, 
@@ -205,10 +208,11 @@ classdef uielements < matlab.apps.AppBase
                     app.listbox_LS_DB.Items = {};
                 end
             end
+            
             % Search species with the elements selected
             if app.NE
                 try
-                    LS = find_species_LS(app.LS_DB, app.LE_selected, 'all', app.LE_omit, 'all');
+                    LS = find_products(app, app.LE_selected, 'flag', true, 'ind', app.ind_elements_DB);
                 catch
                     LS = {};
                 end
@@ -1215,6 +1219,7 @@ classdef uielements < matlab.apps.AppBase
             % Create enableremoveMenu
             app.enableremoveMenu = uimenu(app.context_menu);
             app.enableremoveMenu.MenuSelectedFcn = createCallbackFcn(app, @enableremoveMenuSelected, true);
+            app.enableremoveMenu.Visible = 'off';
             app.enableremoveMenu.Text = 'enable/remove';
             
             % Assign app.context_menu
